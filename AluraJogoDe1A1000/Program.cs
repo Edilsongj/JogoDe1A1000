@@ -1,6 +1,4 @@
-﻿using System;
-
-class Program {
+﻿class Program {
     static void Main() {
         Random Sorteador = new Random();
         int NumeroSecreto = Sorteador.Next(1, 1001);
@@ -25,7 +23,6 @@ class Program {
             else {
                 Console.WriteLine("Parabéns! Você acertou.");
             }
-                        
 
         }while (chutes != NumeroSecreto);
 
